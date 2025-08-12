@@ -1,0 +1,18 @@
+.familyContainer {
+  height: 100vh;
+  background-color: pink;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #333;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.title {
+  font-size: 1.875rem;
+  font-weight: 700;
+  text-decoration: underline;
+  margin-top: 1rem;
+}

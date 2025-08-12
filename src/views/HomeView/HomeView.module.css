@@ -1,0 +1,91 @@
+.homeContainer {
+  height: var(--spacing-screen-minus-header);
+  background-image: url(../../assets/home_background_svg.svg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.mainContent {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  gap: 3rem;
+  padding: 0 6rem;
+}
+
+.leftSide {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 32.5rem;
+}
+
+.title {
+  font-size: 2.25rem;
+  font-weight: 700;
+  color: white;
+  line-height: 1.25;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.cyanHighlight {
+  color: #67e8f9;
+}
+
+.ctaButton {
+  background-color: var(--color-orange);
+  color: white;
+  font-weight: 600;
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.2s;
+  font-size: 1.125rem;
+  border: none;
+  cursor: pointer;
+}
+
+.ctaButton:hover {
+  background-color: #ea580c;
+}
+
+.rightSide {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.foxImage {
+  width: 37.5rem;
+  height: auto;
+  object-fit: contain;
+}
+
+.dottedLine {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 0.25rem;
+  background-color: white;
+  opacity: 0.2;
+}
+
+.dotsContainer {
+  display: flex;
+  justify-content: center;
+  gap: 0.25rem;
+}
+
+.dot {
+  width: 0.25rem;
+  height: 0.25rem;
+  background-color: white;
+  border-radius: 50%;
+}
