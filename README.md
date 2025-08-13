@@ -21,7 +21,7 @@ Este proyecto está configurado con GitHub Actions para despliegue automático e
 ### URL del Sitio
 
 Una vez configurado, tu sitio estará disponible en:
-`https://[tu-usuario].github.io/RCB_Studio/`
+`https://OrzeFox/.github.io/RCB_Studio/`
 
 ## 🛠️ Desarrollo Local
 
